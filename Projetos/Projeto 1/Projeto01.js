@@ -28,19 +28,8 @@ if ( Q5.toUpperCase() == 'SIM'){
 
 if (contador == 0 ){
 
-}
-if (contador == 1 ){
+} else if (contador == 1 || contador == 2){
 
-}
-if (contador == 2 ){
-
-}
-if (contador == 3 ){
-
-}
-if (contador == 4 ){
-
-}
-if (contador == 5 ){
+} else if (contador == 3 || contador == 4){
 
 }
