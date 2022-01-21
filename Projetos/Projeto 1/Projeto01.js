@@ -133,7 +133,7 @@ entrada(`   ${classe} para acabar com o mal voce deve encontrar
 todas as runas que estão escondidas`  );
 
 if ( arma == "Espada" ){
-    
+
 }
 
 
@@ -179,4 +179,6 @@ if (contador == 0 ){
 
 } else if (contador == 3 || contador == 4){
 
+}else {
+    
 }*/
