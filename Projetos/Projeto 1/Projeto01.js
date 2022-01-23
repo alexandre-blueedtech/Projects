@@ -3,7 +3,6 @@ var emoji = require('node-emoji')
 console.clear();
 console.log()
 
-
 entrada("Aperte enter para iniciar")
 
 //dialogo inicial
