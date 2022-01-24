@@ -2,7 +2,6 @@ const entrada = require('prompt-sync')();
 var emoji = require('node-emoji')
 console.clear();
 console.log()
-/*
 entrada("Aperte enter para iniciar ")
 
 //dialogo inicial
@@ -369,7 +368,6 @@ entrada(`    Chegando no reino e começa a
     do além surge o ancião da caverna e faz as seguin-
     tes perguntas `)
 
-*/
 
 var plural;
 var arma;
@@ -421,29 +419,23 @@ while (quest5 != "SIM" && quest5 != "NAO"){
 
 
 var contador = 0
-var Q1
-var Q2
-var Q3
-var Q4
-var Q5
 
-if ( Q1 == 'SIM'){
+
+if ( quest1 == 'SIM'){
     contador = contador + 1
-    if ( Q2 == 'SIM'){
-        contador = contador + 1
-        if ( Q2 == 'SIM'){
-            contador = contador + 1
-            if ( Q2 == 'SIM'){
-                contador = contador + 1
-                if ( Q2 == 'SIM'){
-                    contador = contador + 1
-                }
-            }
-        }
-    
-    }
 }
-console.log(contador)
+if ( quest2 == 'SIM'){
+    contador = contador + 1
+}
+if ( quest3 == 'SIM'){
+    contador = contador + 1
+}
+if ( quest4 == 'SIM'){
+    contador = contador + 1
+}
+if ( quest5 == 'SIM'){
+    contador = contador + 1
+}
 
 if (contador == 0 ){
     console.clear()
